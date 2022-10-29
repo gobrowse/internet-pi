@@ -14,10 +14,6 @@ So that's what this is.
 
 ![Internet Monitoring Dashboard in Grafana](/images/internet-monitoring.png)
 
-**Pi-hole**: Installs the Pi-hole Docker configuration so you can use Pi-hole for network-wide ad-blocking and local DNS. Make sure to update your network router config to direct all DNS queries through your Raspberry Pi if you want to use Pi-hole effectively!
-
-![Pi-hole on the Internet Pi](/images/pi-hole.png)
-
 Other features:
 
   - **Shelly Plug Monitoring**: Installs a [`shelly-plug-prometheus` exporter](https://github.com/geerlingguy/shelly-plug-prometheus) and a Grafana dashboard, which tracks and displays power usage on a Shelly Plug running on the local network. (Disabled by default. Enable and configure using the `shelly_plug_*` vars in `config.yml`.)
