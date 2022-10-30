@@ -10,7 +10,8 @@ I have had a couple Pis doing random Internet-related duties for years. It's fin
 So that's what this is.
 
 **Warning!! This is in beta**
-if you see a problem, got to this ish
+if you see an issues, got to this repo jest for issues:
+
 
 ## Features
 
@@ -87,18 +88,6 @@ prometheus_node_exporter_targets:
   - 'another-server.local:9100'
 ```
 
-## Updating
-
-### pi-hole
-
-To upgrade Pi-hole to the latest version, run the following commands:
-
-```bash
-cd ~/pi-hole # 
-docker-compose pull             # pulls the latest images
-docker-compose up -d --no-deps  # restarts containers with newer images
-docker system prune --all       # deletes unused images
-```
 
 ### Configurations and internet-monitoring images
 
@@ -121,19 +110,13 @@ cd ~/internet-monitoring
 # Shut down internet-monitoring containers and delete data volumes.
 docker-compose down -v
 
-# Enter the pi-hole directory.
-cd ~/pi-hole
-
-# Shutdown pi-hole containers and delete data volumes.
-docker-compose down -v
-
 # Delete all the unused container images, volumes, etc. from the system.
 docker system prune -f
 ```
 
 Do the same thing for any of the other optional directories added by this project (e.g. `shelly-plug-prometheus`, `starlink-exporter`, etc.).
 
-You can then delete the `internet-monitoring`, `pi-hole`, etc. folders and everything will be gone from your system.
+You can then delete the `internet-monitoring`, etc. folders and everything will be gone from your system.
 
 ## License
 
