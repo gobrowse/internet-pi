@@ -9,8 +9,8 @@ I have had a couple Pis doing random Internet-related duties for years. It's fin
 
 So that's what this is.
 
-**Warning!! This is in beta**
-if you see an issues, got to this repo jest for issues:
+**Warning!! This is in beta!**
+If you see an issues, got to this repo jest for issues:
 
 
 ## Features
