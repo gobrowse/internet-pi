@@ -4,11 +4,13 @@
 
 **A Raspberry Pi Configuration for Internet connectivity**
 
-**Warning!! This is still in beta!**
 
 I have had a couple Pis doing random Internet-related duties for years. It's finally time to formalize their configs and make all the DNS/ad-blocking/monitoring stuff encapsulated into one Ansible project.
 
 So that's what this is.
+
+**Warning!! This is in beta**
+if you see a problem, got to this ish
 
 ## Features
 
