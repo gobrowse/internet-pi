@@ -11,14 +11,16 @@ So that's what this is.
 
 **Warning!! This is in beta!**
 If you see an issues, got to this repo jest for issues:
-
+https://github.com/gobrowse/issues
 
 ## Features
 
 **Internet Monitoring**: Installs Prometheus and Grafana, along with a few Docker containers to monitor your Internet connection with Speedtest.net speedtests and HTTP tests so you can see uptime, ping stats, and speedtest results over time.
 
 ![Internet Monitoring Dashboard in Grafana](/images/internet-monitoring.png)
-
+ 
+ **This fork not include pi-hole**
+ 
 Other features:
 
   - **Shelly Plug Monitoring**: Installs a [`shelly-plug-prometheus` exporter](https://github.com/geerlingguy/shelly-plug-prometheus) and a Grafana dashboard, which tracks and displays power usage on a Shelly Plug running on the local network. (Disabled by default. Enable and configure using the `shelly_plug_*` vars in `config.yml`.)
